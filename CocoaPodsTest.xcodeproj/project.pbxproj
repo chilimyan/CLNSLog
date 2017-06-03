@@ -15,7 +15,7 @@
 		D4DC2C3F1EE25719006047C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4DC2C3D1EE25719006047C2 /* LaunchScreen.storyboard */; };
 		D4DC2C4A1EE25719006047C2 /* CocoaPodsTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D4DC2C491EE25719006047C2 /* CocoaPodsTestTests.m */; };
 		D4DC2C551EE25719006047C2 /* CocoaPodsTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D4DC2C541EE25719006047C2 /* CocoaPodsTestUITests.m */; };
-		D4DC2C691EE25818006047C2 /* CLNSlog.m in Sources */ = {isa = PBXBuildFile; fileRef = D4DC2C681EE25818006047C2 /* CLNSlog.m */; };
+		D4DC2C6D1EE26003006047C2 /* CLNSlog.m in Sources */ = {isa = PBXBuildFile; fileRef = D4DC2C6C1EE26003006047C2 /* CLNSlog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +52,8 @@
 		D4DC2C501EE25719006047C2 /* CocoaPodsTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CocoaPodsTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4DC2C541EE25719006047C2 /* CocoaPodsTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CocoaPodsTestUITests.m; sourceTree = "<group>"; };
 		D4DC2C561EE25719006047C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D4DC2C671EE25818006047C2 /* CLNSlog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLNSlog.h; sourceTree = "<group>"; };
-		D4DC2C681EE25818006047C2 /* CLNSlog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLNSlog.m; sourceTree = "<group>"; };
+		D4DC2C6B1EE26003006047C2 /* CLNSlog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLNSlog.h; sourceTree = "<group>"; };
+		D4DC2C6C1EE26003006047C2 /* CLNSlog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLNSlog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +104,7 @@
 		D4DC2C2E1EE25718006047C2 /* CocoaPodsTest */ = {
 			isa = PBXGroup;
 			children = (
-				D4DC2C661EE25818006047C2 /* CLNSLog */,
+				D4DC2C6A1EE26003006047C2 /* CLNSLog */,
 				D4DC2C321EE25718006047C2 /* AppDelegate.h */,
 				D4DC2C331EE25718006047C2 /* AppDelegate.m */,
 				D4DC2C351EE25718006047C2 /* ViewController.h */,
@@ -144,11 +144,11 @@
 			path = CocoaPodsTestUITests;
 			sourceTree = "<group>";
 		};
-		D4DC2C661EE25818006047C2 /* CLNSLog */ = {
+		D4DC2C6A1EE26003006047C2 /* CLNSLog */ = {
 			isa = PBXGroup;
 			children = (
-				D4DC2C671EE25818006047C2 /* CLNSlog.h */,
-				D4DC2C681EE25818006047C2 /* CLNSlog.m */,
+				D4DC2C6B1EE26003006047C2 /* CLNSlog.h */,
+				D4DC2C6C1EE26003006047C2 /* CLNSlog.m */,
 			);
 			path = CLNSLog;
 			sourceTree = "<group>";
@@ -288,7 +288,7 @@
 			files = (
 				D4DC2C371EE25718006047C2 /* ViewController.m in Sources */,
 				D4DC2C341EE25718006047C2 /* AppDelegate.m in Sources */,
-				D4DC2C691EE25818006047C2 /* CLNSlog.m in Sources */,
+				D4DC2C6D1EE26003006047C2 /* CLNSlog.m in Sources */,
 				D4DC2C311EE25718006047C2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
